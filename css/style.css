@@ -575,6 +575,12 @@ img {
   }
 }
 
+@media (max-width: 1024px) {
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 860px) {
   .nav-menu {
     position: fixed;
